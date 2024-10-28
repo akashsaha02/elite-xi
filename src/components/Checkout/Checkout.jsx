@@ -19,7 +19,7 @@ const Checkout = ({ selectedPlayers }) => {
     const playerCount = selectedPlayers.length;
 
     return (
-        <div className="border py-8 bg-gray-50 px-6 rounded-xl shadow-md">
+        <div className="border py-8 bg-slate-50 px-6 rounded-xl shadow-md">
             <h1 className="text-center text-2xl font-extrabold text-gray-800 mb-8">Checkout</h1>
             <div className="space-y-4">
                 {selectedPlayers.map((player, idx) => (

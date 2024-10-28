@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 const TransactionHistory = ({ transactionHistory, balance }) => {
   return (
     <div className='mt-8'>
-      <div className='bg-white p-4 rounded-lg shadow-md border'>
-        <h2 className='text-xl font-bold mb-4 text-center'>Transaction History</h2>
+      <div className='p-4 rounded-lg bg-slate-50 shadow-md border'>
+        <h2 className='text-xl md:text-2xl  font-bold mb-4 text-center'>Transaction History</h2>
         <hr  className='mb-2'/>
         {transactionHistory.length === 0 ? (
           <p className='text-gray-500'>No transactions yet.</p>
