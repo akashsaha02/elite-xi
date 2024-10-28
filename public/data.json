@@ -1,0 +1,135 @@
+[
+    {
+      "id": 1,
+      "name": "Virat Kohli",
+      "country": "India",
+      "category": "Batsman",
+      "player_image": "https://i.ibb.co/DC1vNkx/Virat-Kohli-India-celebrates-50th-century-Cricket-November-15-2023.webp",
+      "batting_type": "Right-hand bat",
+      "bowling_type": "Right-arm medium",
+      "price": 1500000,
+      "rating": 4.9
+    },
+    {
+      "id": 2,
+      "name": "Kane Williamson",
+      "country": "New Zealand",
+      "category": "Batsman",
+      "player_image": "https://i.ibb.co/GQShg7w/Getty-Images-2014197776-1.jpg",
+      "batting_type": "Right-hand bat",
+      "bowling_type": "Right-arm offbreak",
+      "price": 1300000,
+      "rating": 4.8
+    },
+    {
+      "id": 3,
+      "name": "Jasprit Bumrah",
+      "country": "India",
+      "category": "Bowler",
+      "player_image": "https://i.ibb.co/p2DV0J5/jasprit-bumrah.webp",
+      "batting_type": "Right-hand bat",
+      "bowling_type": "Right-arm fast",
+      "price": 1200000,
+      "rating": 4.6
+    },
+    {
+      "id": 4,
+      "name": "Steve Smith",
+      "country": "Australia",
+      "category": "Batsman",
+      "player_image": "https://i.ibb.co/HrGyBQs/steve-smith-pictures-plqsoal1luugiyt3.webp",
+      "batting_type": "Right-hand bat",
+      "bowling_type": "Right-arm legbreak",
+      "price": 1400000,
+      "rating": 4.7
+    },
+    {
+      "id": 5,
+      "name": "Ben Stokes",
+      "country": "England",
+      "category": "All-rounder",
+      "player_image": "https://i.ibb.co/r2ShVKG/95910390.webp",
+      "batting_type": "Left-hand bat",
+      "bowling_type": "Right-arm fast-medium",
+      "price": 1600000,
+      "rating": 4.9
+    },
+    {
+      "id": 6,
+      "name": "Babar Azam",
+      "country": "Pakistan",
+      "category": "Batsman",
+      "player_image": "https://i.ibb.co/WcZb3s2/Untitled-design.jpg",
+      "batting_type": "Right-hand bat",
+      "bowling_type": "Right-arm offbreak",
+      "price": 1250000,
+      "rating": 4.7
+    },
+    {
+      "id": 7,
+      "name": "Trent Boult",
+      "country": "New Zealand",
+      "category": "Bowler",
+      "player_image": "https://i.ibb.co/FbMzNnc/TOPSHOT-CRICKET-ICC-MENS-WC-2023-NZL-BAN-ODI-1-1697291200420-1697291227132.jpg",
+      "batting_type": "Right-hand bat",
+      "bowling_type": "Left-arm fast-medium",
+      "price": 1100000,
+      "rating": 4.5
+    },
+    {
+      "id": 8,
+      "name": "Rashid Khan",
+      "country": "Afghanistan",
+      "category": "Bowler",
+      "player_image": "https://i.ibb.co/XJvfpKf/26184210181bb48.jpg",
+      "batting_type": "Right-hand bat",
+      "bowling_type": "Right-arm legbreak googly",
+      "price": 1350000,
+      "rating": 4.8
+    },
+    {
+      "id": 9,
+      "name": "David Warner",
+      "country": "Australia",
+      "category": "Batsman",
+      "player_image": "https://i.ibb.co/qB4czhV/David-Warner-aus-696x497.jpg",
+      "batting_type": "Left-hand bat",
+      "bowling_type": "Right-arm legbreak",
+      "price": 1450000,
+      "rating": 4.7
+    },
+    {
+      "id": 10,
+      "name": "Jofra Archer",
+      "country": "England",
+      "category": "Bowler",
+      "player_image": "https://i.ibb.co/Jqxn2hD/jofra-archer-fb.webp",
+      "batting_type": "Right-hand bat",
+      "bowling_type": "Right-arm fast",
+      "price": 1250000,
+      "rating": 4.6
+    },
+    {
+      "id": 11,
+      "name": "Shakib Al Hasan",
+      "country": "Bangladesh",
+      "category": "All-rounder",
+      "player_image": "https://i.ibb.co/gd9NHD6/sh.jpg",
+      "batting_type": "Left-hand bat",
+      "bowling_type": "Left-arm orthodox spin",
+      "price": 1400000,
+      "rating": 4.7
+    },
+    {
+      "id": 12,
+      "name": "Quinton de Kock",
+      "country": "South Africa",
+      "category": "Wicketkeeper",
+      "player_image": "https://i.ibb.co/Cs167wV/quinton-de-kock-century-world-cup-ap-2023-11-3fcb8019e5a268d9f8ca97c341ea3d92-16x9.webp",
+      "batting_type": "Left-hand bat",
+      "bowling_type": "Right-arm offbreak",
+      "price": 1300000,
+      "rating": 4.7
+    }
+  ]
+  
