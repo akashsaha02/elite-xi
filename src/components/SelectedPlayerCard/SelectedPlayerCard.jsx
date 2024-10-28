@@ -57,5 +57,6 @@ SelectedPlayerCard.propTypes = {
             price: PropTypes.number.isRequired,
         })
     ).isRequired,
+    setShowFilters: PropTypes.func.isRequired,
 };
 export default SelectedPlayerCard;

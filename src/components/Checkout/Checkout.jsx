@@ -1,5 +1,4 @@
 import { useState } from "react";
-
 import PropTypes from "prop-types";
 
 const Checkout = ({ selectedPlayers }) => {
@@ -15,6 +14,8 @@ const Checkout = ({ selectedPlayers }) => {
 
     // Calculate total price
     const totalPrice = selectedPlayers.reduce((acc, player) => acc + player.price, 0);
+    const taxAmount = (totalPrice * 5) / 100; // Calculate 5% tax
+    const finalTotal = totalPrice + taxAmount; // Final total after adding tax
     const playerCount = selectedPlayers.length;
 
     return (
@@ -39,7 +40,7 @@ const Checkout = ({ selectedPlayers }) => {
 
             <div className="bg-white p-5 shadow rounded-lg flex justify-between items-center mt-6">
                 <h3 className="text-lg font-bold text-gray-800">Total ({playerCount} Players)</h3>
-                <p className="text-lg font-bold text-gray-800">${totalPrice}</p>
+                <p className="text-lg font-bold text-gray-800">${totalPrice.toFixed(2)}</p>
             </div>
 
             <div className="mt-6 space-y-3">
@@ -49,7 +50,6 @@ const Checkout = ({ selectedPlayers }) => {
                 >
                     Checkout Now
                 </button>
-                
             </div>
 
             {/* Modal */}
@@ -68,8 +68,16 @@ const Checkout = ({ selectedPlayers }) => {
                         </div>
                         <hr className="my-4" />
                         <div className="flex justify-between mt-2">
-                            <p className="font-bold text-gray-800">Total</p>
-                            <p className="font-bold text-gray-800">${totalPrice}</p>
+                            <p className="font-bold text-gray-800">Subtotal</p>
+                            <p className="font-bold text-gray-800">${totalPrice.toFixed(2)}</p>
+                        </div>
+                        <div className="flex justify-between mt-2">
+                            <p className="font-bold text-gray-800">Tax (5%)</p>
+                            <p className="font-bold text-gray-800">${taxAmount.toFixed(2)}</p>
+                        </div>
+                        <div className="flex justify-between mt-4">
+                            <p className="font-bold text-gray-800">Final Total</p>
+                            <p className="font-bold text-gray-800">${finalTotal.toFixed(2)}</p>
                         </div>
                         <button
                             onClick={closeModal}
