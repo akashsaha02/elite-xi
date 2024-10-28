@@ -16,4 +16,4 @@ The Elite 11 App allows users to create and manage a virtual sports team using a
 
 ## Project Link
 
-https://dream11-akashsaha02.netlify.app/
+https://elitexi.netlify.app/
