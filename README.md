@@ -1,7 +1,7 @@
-# Elite 11 Player Selection App
+# Elite XI Player Selection App
 
 ## Description
-The Elite 11 App allows users to create and manage a virtual sports team using a bidding system. Users can allocate coins to their balance, select players within their budget, and adjust their choices dynamically. The app simulates a realistic team management experience with budgetary constraints and player selection limits.
+The Elite XI App allows users to create and manage a virtual sports team using a bidding system. Users can allocate coins to their balance, select players within their budget, and adjust their choices dynamically. The app simulates a realistic team management experience with budgetary constraints and player selection limits.
 
 ## Technologies Used
 - **React**: For developing the user interface.
